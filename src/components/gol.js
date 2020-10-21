@@ -121,8 +121,7 @@ export default function Gol() {
                             runningRef.current = true;
                             runSim();
                         }
-                    }}
-                >
+                    }}>
                     {running ? "stop" : "start"}
                 </button>
                 <button
@@ -134,36 +133,31 @@ export default function Gol() {
                             );
                         }
                         setGrid(rows);
-                    }}
-                >
+                    }}>
                     random
                 </button>
                 <button
                     onClick={() => {
                         setGrid(generateEmptyGrid());
-                    }}
-                >
+                    }}>
                     clear
                 </button>
                 <button
             onClick={() => {
               timmyRef.current = 5
-            }}
-          >
+            }}>
             Speed Up
           </button>
           <button
             onClick={() => {
               timmyRef.current = 300
-            }}
-          >
+            }}>
             Normal
           </button>
           <button
             onClick={() => {
               timmyRef.current = 800
-            }}
-          >
+            }}>
             Slow Down
           </button>
             </div>
