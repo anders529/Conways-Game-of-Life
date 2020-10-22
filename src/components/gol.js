@@ -139,6 +139,7 @@ export default function Gol() {
                 <button
                     onClick={() => {
                         setGrid(generateEmptyGrid());
+                        setGenZ(0);
                     }}>
                     clear
                 </button>
